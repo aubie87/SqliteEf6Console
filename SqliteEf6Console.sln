@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteEf6Console", "SqliteEf6Console\SqliteEf6Console.csproj", "{FCE53260-424D-40A7-BA98-4C5039FED049}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE53260-424D-40A7-BA98-4C5039FED049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE53260-424D-40A7-BA98-4C5039FED049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE53260-424D-40A7-BA98-4C5039FED049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE53260-424D-40A7-BA98-4C5039FED049}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CCB8BE5-40E8-451E-9105-C2D6903D5E8A}
+	EndGlobalSection
+EndGlobal
