@@ -1,5 +1,5 @@
 ﻿using SQLite.CodeFirst;
-using SqliteEf6Console.Data;
+using SqliteEf6Console.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SqliteEf6Console
+namespace SqliteEf6Console.Data
 {
     public class SQLiteConfiguration : DbConfiguration
     {
