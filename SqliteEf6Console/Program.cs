@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqliteEf6Console.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace SqliteEf6Console
             // PM> Update-Package -reinstall System.Data.SQLite.Core
             using (SqliteEf6Context context = new SqliteEf6Context())
             {
-                context.People.Add(new Person { Name = "Abe", Birthday = DateTime.Now.AddYears(-20) });
+                context.People.Add(new Person { Name = Guid.NewGuid().ToString(), Birthday = DateTime.Now.AddYears(-20) });
                 context.SaveChanges();
             }
         }

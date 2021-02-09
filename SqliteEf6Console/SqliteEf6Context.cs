@@ -1,4 +1,5 @@
 ﻿using SQLite.CodeFirst;
+using SqliteEf6Console.Data;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

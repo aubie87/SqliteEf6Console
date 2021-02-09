@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SqliteEf6Console
+namespace SqliteEf6Console.Data.Models
 {
     public class Person
     {
